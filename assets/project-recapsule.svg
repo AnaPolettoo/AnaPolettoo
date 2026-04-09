@@ -1,0 +1,9 @@
+<svg width="1280" height="210" viewBox="0 0 1280 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="recapsuleTitle recapsuleDesc">
+  <title id="recapsuleTitle">Recapsule</title>
+  <desc id="recapsuleDesc">Project preview card for Recapsule.</desc>
+  <rect x="40" y="16" width="1200" height="178" rx="30" fill="#14151C"/>
+
+  <text x="82" y="98" fill="#EDA0C8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="700" letter-spacing="-1.3">Recapsule</text>
+  <text x="82" y="136" fill="#D8D8E2" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="500">A memory app that turns everyday moments into interactive,</text>
+  <text x="82" y="168" fill="#8E8E9B" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21" font-weight="400">surprising photo puzzles.</text>
+</svg>

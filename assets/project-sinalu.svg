@@ -1,29 +1,7 @@
 <svg width="1280" height="210" viewBox="0 0 1280 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sinaluTitle sinaluDesc">
   <title id="sinaluTitle">SinaLu</title>
   <desc id="sinaluDesc">Project preview card for SinaLu.</desc>
-  <defs>
-    <linearGradient id="sinaluPanel" x1="48" y1="20" x2="1234" y2="192" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#171821"/>
-      <stop offset="0.55" stop-color="#12141B"/>
-      <stop offset="1" stop-color="#101117"/>
-    </linearGradient>
-    <radialGradient id="sinaluFade" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1042 72) rotate(140.091) scale(356.913 282.774)">
-      <stop stop-color="#5B8DEF" stop-opacity="0.34"/>
-      <stop offset="0.55" stop-color="#5B8DEF" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#5B8DEF" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="sinaluBlur" x="860" y="-10" width="360" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="34" result="effect1_foregroundBlur"/>
-    </filter>
-  </defs>
-
-  <rect x="40" y="16" width="1200" height="178" rx="30" fill="url(#sinaluPanel)"/>
-  <g filter="url(#sinaluBlur)" opacity="0.92">
-    <circle cx="1040" cy="76" r="84" fill="url(#sinaluFade)"/>
-  </g>
-  <rect x="40" y="16" width="1200" height="178" rx="30" fill="url(#sinaluFade)"/>
+  <rect x="40" y="16" width="1200" height="178" rx="30" fill="#14151C"/>
 
   <text x="82" y="98" fill="#7FB1FF" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="42" font-weight="700" letter-spacing="-1.3">SinaLu</text>
   <text x="82" y="136" fill="#D8D8E2" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="23" font-weight="500">An educational app for learning Libras in a fun, interactive,</text>

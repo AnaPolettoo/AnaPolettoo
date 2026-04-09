@@ -6,6 +6,16 @@
       <stop stop-color="#15151A"/>
       <stop offset="1" stop-color="#0F1015"/>
     </linearGradient>
+    <radialGradient id="heroPinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(230 80) rotate(29.7) scale(380.492 198.251)">
+      <stop stop-color="#EDA0C8" stop-opacity="0.55"/>
+      <stop offset="0.48" stop-color="#EDA0C8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#EDA0C8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="heroBlueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 164) rotate(137.49) scale(276.4 188.953)">
+      <stop stop-color="#5B8DEF" stop-opacity="0.25"/>
+      <stop offset="0.6" stop-color="#5B8DEF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#5B8DEF" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="pinkGlow" x1="190" y1="118" x2="430" y2="240" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F6C5DF"/>
       <stop offset="1" stop-color="#EDA0C8"/>
@@ -14,26 +24,27 @@
       <stop stop-color="#7FB1FF"/>
       <stop offset="1" stop-color="#5B8DEF"/>
     </linearGradient>
-    <filter id="softBlurPink" x="70" y="34" width="360" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="softBlurPink" x="34" y="-16" width="480" height="300" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="42" result="effect1_foregroundBlur"/>
+      <feGaussianBlur stdDeviation="54" result="effect1_foregroundBlur"/>
     </filter>
-    <filter id="softBlurBlue" x="900" y="72" width="280" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <filter id="softBlurBlue" x="856" y="36" width="352" height="260" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
       <feFlood flood-opacity="0" result="BackgroundImageFix"/>
       <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="38" result="effect1_foregroundBlur"/>
+      <feGaussianBlur stdDeviation="44" result="effect1_foregroundBlur"/>
     </filter>
   </defs>
 
   <g filter="url(#softBlurPink)" opacity="0.62">
-    <circle cx="224" cy="112" r="58" fill="url(#pinkGlow)"/>
+    <circle cx="224" cy="112" r="88" fill="url(#heroPinkGlow)"/>
   </g>
   <g filter="url(#softBlurBlue)" opacity="0.28">
-    <circle cx="1036" cy="176" r="54" fill="url(#blueGlow)"/>
+    <circle cx="1036" cy="176" r="74" fill="url(#heroBlueGlow)"/>
   </g>
 
   <rect x="40" y="24" width="1200" height="292" rx="34" fill="url(#bgPanel)"/>
+  <rect x="40" y="24" width="1200" height="292" rx="34" fill="url(#heroPinkGlow)"/>
 
   <text x="110" y="148" fill="#F8F8FB" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="68" font-weight="700" letter-spacing="-2.4">Hello, I'm Ana</text>
 

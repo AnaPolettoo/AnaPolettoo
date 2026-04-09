@@ -1,0 +1,34 @@
+<svg width="1280" height="170" viewBox="0 0 1280 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="stackTagsTitle stackTagsDesc">
+  <title id="stackTagsTitle">Stack tags</title>
+  <desc id="stackTagsDesc">SwiftUI, UIKit, Swift, CloudKit, Python, Machine Learning, Data Analysis, Data Visualization, Artificial Intelligence, and Figma.</desc>
+
+  <rect x="0" y="0" width="174" height="56" rx="28" fill="#15161C"/>
+  <text x="34" y="35" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">SwiftUI</text>
+
+  <rect x="190" y="0" width="146" height="56" rx="28" fill="#15161C"/>
+  <text x="228" y="35" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">UIKit</text>
+
+  <rect x="352" y="0" width="142" height="56" rx="28" fill="#15161C"/>
+  <text x="390" y="35" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Swift</text>
+
+  <rect x="510" y="0" width="180" height="56" rx="28" fill="#15161C"/>
+  <text x="548" y="35" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">CloudKit</text>
+
+  <rect x="706" y="0" width="154" height="56" rx="28" fill="#15161C"/>
+  <text x="748" y="35" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Python</text>
+
+  <rect x="876" y="0" width="308" height="56" rx="28" fill="#15161C"/>
+  <text x="914" y="35" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Machine Learning</text>
+
+  <rect x="0" y="74" width="238" height="56" rx="28" fill="#15161C"/>
+  <text x="38" y="109" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Data Analysis</text>
+
+  <rect x="254" y="74" width="300" height="56" rx="28" fill="#15161C"/>
+  <text x="292" y="109" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Data Visualization</text>
+
+  <rect x="570" y="74" width="340" height="56" rx="28" fill="#15161C"/>
+  <text x="608" y="109" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Artificial Intelligence</text>
+
+  <rect x="926" y="74" width="150" height="56" rx="28" fill="#15161C"/>
+  <text x="972" y="109" fill="#E2E2EA" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">Figma</text>
+</svg>
