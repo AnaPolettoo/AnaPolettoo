@@ -4,6 +4,12 @@
   </a>
 </p>
 
+### Stacks
+
+`SwiftUI` `UIKit` `Swift` `CloudKit` `Python` `Machine Learning` `Data Analysis` `Data Visualization` `Artificial Intelligence` `Figma`
+
+### Last Projects
+
 <p align="center">
   <a href="https://anapolettoo.github.io/PortifolioAna/project/sinalu">
     <img src="./assets/project-sinalu.svg" alt="SinaLu project preview" width="100%" />
@@ -17,7 +23,5 @@
 </p>
 
 <p align="center">
-  <a href="https://anapolettoo.github.io/PortifolioAna/">
-    <img src="./assets/see-more.svg" alt="See more on my portfolio" />
-  </a>
+  <a href="https://anapolettoo.github.io/PortifolioAna/">See more on portfolio →</a>
 </p>
