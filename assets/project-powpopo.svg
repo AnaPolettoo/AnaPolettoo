@@ -1,0 +1,37 @@
+<svg width="1280" height="270" viewBox="0 0 1280 270" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="powTitle powDesc">
+  <title id="powTitle">Pow Po Po</title>
+  <desc id="powDesc">Project preview card for Pow Po Po.</desc>
+  <defs>
+    <linearGradient id="powPanel" x1="50" y1="30" x2="1230" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15161C"/>
+      <stop offset="1" stop-color="#101117"/>
+    </linearGradient>
+    <linearGradient id="powStroke" x1="48" y1="28" x2="1232" y2="242" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#342A26"/>
+      <stop offset="1" stop-color="#241916"/>
+    </linearGradient>
+    <filter id="powBlur" x="930" y="35" width="230" height="200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="26" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="270" fill="#09090C"/>
+  <rect x="24" y="24" width="1232" height="222" rx="32" fill="url(#powPanel)" stroke="url(#powStroke)"/>
+  <g filter="url(#powBlur)" opacity="0.44">
+    <circle cx="1048" cy="132" r="54" fill="#FF6B35"/>
+  </g>
+
+  <rect x="72" y="72" width="122" height="34" rx="17" fill="#171821" stroke="#332420"/>
+  <text x="102" y="94" fill="#C8A99D" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="600" letter-spacing="1.8">LATEST / 02</text>
+
+  <text x="72" y="148" fill="#FF6B35" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="44" font-weight="700" letter-spacing="-1.4">Pow Po Po</text>
+  <text x="72" y="186" fill="#D8D8E2" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="500">A one-finger survival game with playful chaos, fast runs,</text>
+  <text x="72" y="220" fill="#8E8E9B" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="400">and strategic upgrades.</text>
+
+  <rect x="1018" y="74" width="150" height="122" rx="30" fill="#FF6B35"/>
+  <text x="1050" y="149" fill="#160B07" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="40" font-weight="800" letter-spacing="-1.6">PPP</text>
+
+  <text x="1168" y="220" fill="#FFE3D8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600" text-anchor="end">Open on portfolio →</text>
+</svg>
