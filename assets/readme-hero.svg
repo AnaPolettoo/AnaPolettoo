@@ -6,26 +6,11 @@
       <stop stop-color="#15151A"/>
       <stop offset="1" stop-color="#0F1015"/>
     </linearGradient>
-    <radialGradient id="heroPinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1082 92) rotate(151.4) scale(560 282)">
-      <stop stop-color="#EDA0C8" stop-opacity="0.68"/>
-      <stop offset="0.46" stop-color="#EDA0C8" stop-opacity="0.24"/>
+    <radialGradient id="heroPinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 132) rotate(155) scale(430 208)">
+      <stop stop-color="#EDA0C8" stop-opacity="0.42"/>
+      <stop offset="0.42" stop-color="#EDA0C8" stop-opacity="0.16"/>
       <stop offset="1" stop-color="#EDA0C8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="heroBlueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(228 188) rotate(31.8) scale(196 128)">
-      <stop stop-color="#5B8DEF" stop-opacity="0.25"/>
-      <stop offset="0.6" stop-color="#5B8DEF" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#5B8DEF" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="softBlurPink" x="720" y="-34" width="660" height="352" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="58" result="effect1_foregroundBlur"/>
-    </filter>
-    <filter id="softBlurBlue" x="92" y="78" width="280" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur"/>
-    </filter>
     <clipPath id="heroCardClip">
       <rect x="40" y="24" width="1200" height="292" rx="34"/>
     </clipPath>
@@ -34,13 +19,7 @@
   <rect x="40" y="24" width="1200" height="292" rx="34" fill="url(#bgPanel)"/>
 
   <g clip-path="url(#heroCardClip)">
-    <ellipse cx="930" cy="176" rx="410" ry="220" fill="url(#heroPinkGlow)" opacity="0.22"/>
-    <g filter="url(#softBlurPink)" opacity="0.62">
-      <circle cx="1094" cy="86" r="124" fill="#EDA0C8"/>
-    </g>
-    <g filter="url(#softBlurBlue)" opacity="0.14">
-      <circle cx="228" cy="188" r="52" fill="#5B8DEF"/>
-    </g>
+    <ellipse cx="960" cy="170" rx="360" ry="196" fill="url(#heroPinkGlow)"/>
   </g>
 
   <text x="110" y="148" fill="#F8F8FB" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="68" font-weight="700" letter-spacing="-2.4">Hello, I'm Ana</text>
