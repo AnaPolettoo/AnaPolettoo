@@ -6,16 +6,16 @@
       <stop stop-color="#15151A"/>
       <stop offset="1" stop-color="#0F1015"/>
     </linearGradient>
-    <radialGradient id="heroPinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1072 136) rotate(162) scale(560 276)">
-      <stop stop-color="#EDA0C8" stop-opacity="0.26"/>
-      <stop offset="0.34" stop-color="#EDA0C8" stop-opacity="0.14"/>
-      <stop offset="0.68" stop-color="#EDA0C8" stop-opacity="0.05"/>
+    <radialGradient id="heroPinkGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1024 144) rotate(162) scale(500 248)">
+      <stop stop-color="#EDA0C8" stop-opacity="0.18"/>
+      <stop offset="0.34" stop-color="#EDA0C8" stop-opacity="0.09"/>
+      <stop offset="0.68" stop-color="#EDA0C8" stop-opacity="0.03"/>
       <stop offset="1" stop-color="#EDA0C8" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect x="40" y="24" width="1200" height="292" rx="36" fill="url(#bgPanel)"/>
-  <rect x="40" y="24" width="1200" height="292" rx="36" fill="url(#heroPinkGlow)"/>
+  <rect x="40" y="24" width="1200" height="292" rx="42" fill="url(#bgPanel)"/>
+  <rect x="40" y="24" width="1200" height="292" rx="42" fill="url(#heroPinkGlow)"/>
 
   <text x="110" y="148" fill="#F8F8FB" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="68" font-weight="700" letter-spacing="-2.4">Hello, I'm Ana</text>
 
